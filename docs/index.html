@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ruixiang Hu - AI & Wearable Sensing Algorithm Engineer | Personal Portfolio Website">
+    <meta name="keywords" content="AI, Deep Learning, Wearable Sensing, Gait Recognition, Human Activity Recognition, PyTorch">
+    <meta name="author" content="Ruixiang Hu">
+    <title>Ruixiang Hu | AI & Wearable Sensing Algorithm Engineer</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome CDN for icons (fallback: site still works without it) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ==================== Navigation ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Ruixiang Hu</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#roles" class="nav-link">Roles</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== Hero Section ==================== -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">胡瑞祥</h1>
+                <h2 class="hero-name-en">Ruixiang Hu</h2>
+                <p class="hero-title">AI &amp; Wearable Sensing Algorithm Engineer Candidate</p>
+                <p class="hero-subtitle">
+                    人工智能算法 / 深度学习 / 可穿戴传感器算法 / 人体行为识别 / 边缘智能部署
+                </p>
+                <p class="hero-bio">
+                    Graduate student focusing on deep learning, wearable sensor-based gait recognition,
+                    human activity recognition, and edge AI deployment.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="./resume/resume.pdf" class="btn btn-outline" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://github.com/yourname" target="_blank" rel="noopener" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:your_email@example.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" title="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" title="ORCID">
+                        <i class="fab fa-orcid"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-frame">
+                    <img src="./assets/avatar-placeholder.jpg" alt="Ruixiang Hu" class="avatar-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- ==================== About Section ==================== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a graduate student specializing in intelligent wearable sensing and human motion analysis.
+                    My research and project experience cover wearable sensor data processing, deep learning modeling,
+                    gait recognition, abnormal gait detection, and cross-subject experimental evaluation.
+                    I work extensively with IMU sensors, plantar pressure data, biomechanical prior features,
+                    and deep learning models, with a strong focus on edge device deployment and real-world applications.
+                </p>
+                <p>
+                    我是一名从事智能可穿戴与人体运动分析方向研究的研究生，具有可穿戴传感器数据处理、深度学习建模、
+                    步态识别、异常步态识别和跨受试者实验评估经验。我的研究和项目主要围绕 IMU、足底压力、
+                    生物力学先验特征以及深度学习模型展开，并关注模型在边缘设备和实际应用场景中的部署。
+                </p>
+            </div>
+            <div class="about-tags">
+                <span class="tag">Wearable Sensing</span>
+                <span class="tag">Deep Learning</span>
+                <span class="tag">Gait Recognition</span>
+                <span class="tag">Human Activity Recognition</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Edge AI</span>
+                <span class="tag">Research + Engineering</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Target Roles Section ==================== -->
+    <section id="roles" class="section roles">
+        <div class="container">
+            <h2 class="section-title">Target Roles</h2>
+            <div class="roles-grid">
+                <div class="role-card">
+                    <div class="role-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI Algorithm Engineer</h3>
+                    <p>Deep learning model design, training, evaluation, and performance analysis using Python and PyTorch.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Wearable Sensing Algorithm Engineer</h3>
+                    <p>Sensor signal processing, IMU and plantar pressure data analysis, gait feature extraction, and motion recognition.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon"><i class="fas fa-walking"></i></div>
+                    <h3>Human Activity Recognition Engineer</h3>
+                    <p>Human activity recognition, abnormal gait recognition, cross-subject validation, and time-series classification.</p>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Edge AI / Deployment Engineer</h3>
+                    <p>Model deployment on embedded platforms, mobile applications, Jetson devices, and real-time inference systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Skills Section ==================== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">C / C++</span>
+                        <span class="tag">Java / Android Basics</span>
+                        <span class="tag">SQL Basics</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span class="tag">PyTorch</span>
+                        <span class="tag">CNN</span>
+                        <span class="tag">LSTM / BiLSTM</span>
+                        <span class="tag">Transformer</span>
+                        <span class="tag">Multi-task Learning</span>
+                        <span class="tag">Self-supervised Learning</span>
+                        <span class="tag">Model Training &amp; Evaluation</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Sensor Data Processing</h3>
+                    <div class="skill-tags">
+                        <span class="tag">IMU Signal Processing</span>
+                        <span class="tag">Plantar Pressure Analysis</span>
+                        <span class="tag">Time-series Data</span>
+                        <span class="tag">Gait Event Detection</span>
+                        <span class="tag">COP Feature Extraction</span>
+                        <span class="tag">Data Normalization</span>
+                        <span class="tag">Sliding Window Segmentation</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> ML Evaluation</h3>
+                    <div class="skill-tags">
+                        <span class="tag">LOSO Cross-validation</span>
+                        <span class="tag">K-fold Cross-validation</span>
+                        <span class="tag">Confusion Matrix</span>
+                        <span class="tag">Accuracy / Precision / Recall / F1</span>
+                        <span class="tag">RMSE / MAE</span>
+                        <span class="tag">Ablation Study</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Engineering Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">Linux / Ubuntu</span>
+                        <span class="tag">PyCharm</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Conda</span>
+                        <span class="tag">LaTeX</span>
+                        <span class="tag">Zotero</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> Deployment</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Jetson Basics</span>
+                        <span class="tag">Arduino Basics</span>
+                        <span class="tag">TFLite Basics</span>
+                        <span class="tag">Mobile App Integration Basics</span>
+                        <span class="tag">Real-time Data Visualization</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Projects Section ==================== -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <p class="section-desc">The most important section — showcasing my hands-on project experience.</p>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Deep Learning | Wearable Sensing | Gait Recognition</span>
+                        <h3>Wearable Sensor-based Abnormal Gait Recognition</h3>
+                        <p>Built a wearable sensor-based abnormal gait recognition framework using plantar pressure and IMU data. The system focuses on recognizing multiple simulated abnormal gait patterns under cross-subject evaluation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">Transformer</span>
+                            <span class="tag">IMU</span>
+                            <span class="tag">Plantar Pressure</span>
+                            <span class="tag">LOSO</span>
+                        </div>
+                        <h4>My Contributions</h4>
+                        <ul>
+                            <li>Designed a dual-branch deep learning model for pressure and IMU data</li>
+                            <li>Introduced biomechanical prior features such as COP</li>
+                            <li>Evaluated cross-subject generalization using LOSO validation</li>
+                            <li>Conducted comparative experiments and ablation studies across multiple models</li>
+                            <li>Generated confusion matrices, classification reports, and result visualizations</li>
+                        </ul>
+                        <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> GitHub (placeholder)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Multi-task Learning | Human Motion Analysis</span>
+                        <h3>Multi-task Learning for Activity Recognition and Knee Angle Estimation</h3>
+                        <p>Developed a CNN-LSTM based multi-task learning framework for simultaneous human activity classification and bilateral knee angle regression.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">CNN-LSTM</span>
+                            <span class="tag">Multi-task Learning</span>
+                            <span class="tag">Regression</span>
+                            <span class="tag">Classification</span>
+                        </div>
+                        <h4>My Contributions</h4>
+                        <ul>
+                            <li>Built a CNN-LSTM multi-task learning model architecture</li>
+                            <li>Simultaneously performed activity classification and left/right knee angle prediction</li>
+                            <li>Implemented training, validation, logging, and visualization pipelines</li>
+                            <li>Evaluated model performance using classification accuracy and RMSE</li>
+                            <li>Analyzed the relationship between classification and regression tasks</li>
+                        </ul>
+                        <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> GitHub (placeholder)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Self-supervised Learning | Human Activity Recognition</span>
+                        <h3>Self-supervised Learning for Wearable HAR</h3>
+                        <p>Implemented a masked autoencoder pretraining framework for wearable sensor-based human activity recognition under LOSO evaluation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">MAE</span>
+                            <span class="tag">Self-supervised Learning</span>
+                            <span class="tag">HAR</span>
+                            <span class="tag">LOSO</span>
+                        </div>
+                        <h4>My Contributions</h4>
+                        <ul>
+                            <li>Implemented MAE self-supervised pretraining for sensor time-series data</li>
+                            <li>Designed a temporal patch masking mechanism</li>
+                            <li>Compared Scratch-FT, MAE-Linear, MAE-FT, and MAE-FT-DLR approaches</li>
+                            <li>Analyzed downstream classification performance under few-label and full-label scenarios</li>
+                            <li>Evaluated cross-subject generalization using LOSO setup</li>
+                        </ul>
+                        <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> GitHub (placeholder)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Signal Processing | Wearable System | Real-time Analysis</span>
+                        <h3>Wearable Gait Analysis System with IMU Sensors</h3>
+                        <p>Developed a wearable gait analysis pipeline using foot-mounted and waist-mounted IMU sensors for gait event detection and spatiotemporal gait parameter estimation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">IMU</span>
+                            <span class="tag">Signal Processing</span>
+                            <span class="tag">Filtering</span>
+                            <span class="tag">ZUPT</span>
+                            <span class="tag">Gait Event Detection</span>
+                        </div>
+                        <h4>My Contributions</h4>
+                        <ul>
+                            <li>Processed foot and waist IMU sensor data</li>
+                            <li>Implemented gait event detection and gait phase segmentation</li>
+                            <li>Estimated step length, cadence, velocity, stance phase, and swing phase metrics</li>
+                            <li>Completed signal visualization and detection result visualization</li>
+                            <li>Explored real-time visualization and hardware deployment applications</li>
+                        </ul>
+                        <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> GitHub (placeholder)
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Experience Section ==================== -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Research &amp; Engineering Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Graduate Researcher</h3>
+                        <p class="timeline-meta">Zhongyuan University of Technology &mdash; 2024 - Present</p>
+                        <ul>
+                            <li>Conducting research on wearable sensor-based gait recognition and human activity recognition</li>
+                            <li>Building deep learning models for time-series classification and regression</li>
+                            <li>Designing cross-subject validation, ablation studies, and comparative experiments</li>
+                            <li>Writing papers, organizing experimental results, and creating figures</li>
+                            <li>Exploring model deployment on edge devices and wearable systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Education Section ==================== -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <h3>Zhongyuan University of Technology</h3>
+                <p class="edu-degree">Master Student</p>
+                <p class="edu-field">Research Area: Wearable Sensing, Gait Analysis, Human Activity Recognition</p>
+                <p class="edu-period">2024 - Present</p>
+                <div class="edu-courses">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Neural Networks</span>
+                    <span class="tag">Signal Processing</span>
+                    <span class="tag">Embedded System Basics</span>
+                    <span class="tag">Data Analysis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Publications Section ==================== -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="pub-list">
+                <div class="pub-item">
+                    <p class="pub-index">[1]</p>
+                    <div class="pub-info">
+                        <p class="pub-title">Title of the paper (placeholder)</p>
+                        <p class="pub-authors"><strong>Ruixiang Hu</strong>, Yan Wang, et al.</p>
+                        <p class="pub-venue">Conference / Journal, Year</p>
+                        <div class="pub-links">
+                            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+                            <a href="#" class="btn btn-small btn-outline"><i class="fas fa-quote-right"></i> BibTeX</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <p class="pub-index">[2]</p>
+                    <div class="pub-info">
+                        <p class="pub-title">Title of the paper (placeholder)</p>
+                        <p class="pub-authors"><strong>Ruixiang Hu</strong>, Yan Wang, et al.</p>
+                        <p class="pub-venue">Conference / Journal, Year</p>
+                        <div class="pub-links">
+                            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="btn btn-small btn-outline" target="_blank" rel="noopener"><i class="fas fa-code"></i> Code</a>
+                            <a href="#" class="btn btn-small btn-outline"><i class="fas fa-quote-right"></i> BibTeX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Resume Download Section ==================== -->
+    <section id="resume" class="section resume-download">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-card">
+                <p>
+                    If you'd like to learn more about my project experience, skills, and career interests,
+                    feel free to download my resume or reach out directly.
+                </p>
+                <p>
+                    如果您想进一步了解我的项目经历、技能背景和求职意向，欢迎下载我的简历或直接联系我。
+                </p>
+                <div class="resume-buttons">
+                    <!--
+                        IMPORTANT: Replace docs/resume/resume.pdf with your real resume PDF file.
+                        Keep the filename as "resume.pdf".
+                    -->
+                    <a href="./resume/resume.pdf" class="btn btn-primary" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume (PDF)
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Contact Section ==================== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-card">
+                <p class="contact-intro">
+                    目前我正在关注人工智能算法、可穿戴传感器算法、人体行为识别和边缘智能部署相关的实习与就业机会。
+                </p>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>your_email@example.com</span>
+                        <button class="btn btn-small btn-outline copy-btn" data-copy="your_email@example.com">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/yourname" target="_blank" rel="noopener">github.com/yourname</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-orcid"></i>
+                        <a href="#" target="_blank" rel="noopener">ORCID</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Zhengzhou, China</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== Footer ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - 2025 Ruixiang Hu. All rights reserved.</p>
+            <p class="footer-note">Built with HTML, CSS &amp; JavaScript. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== Back to Top Button ==================== -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

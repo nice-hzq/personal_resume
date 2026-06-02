@@ -1,0 +1,27 @@
+# Resume File
+
+请将您的个人简历 PDF 命名为 `resume.pdf`，并放在此目录下。
+
+Place your resume PDF file here and name it `resume.pdf`.
+
+---
+
+## 如何替换 / How to Replace
+
+1. 将您的 PDF 简历文件重命名为 `resume.pdf`
+2. 将其复制到此目录下，替换占位文件
+3. 提交并推送到 GitHub
+
+1. Rename your PDF resume to `resume.pdf`
+2. Copy it to this directory, replacing the placeholder
+3. Commit and push to GitHub
+
+---
+
+## 链接说明 / Link Info
+
+网站中「Download Resume」按钮会自动链接到此文件：
+`./resume/resume.pdf`
+
+The "Download Resume" button in the website links to:
+`./resume/resume.pdf`
