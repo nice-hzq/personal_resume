@@ -1,4 +1,4 @@
-# 个人求职简历网站 — 胡瑞祥 / Ruixiang Hu
+# 个人求职简历网站
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-上线-blue)](https://yourname.github.io/personal-job-website/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
