@@ -724,6 +724,10 @@ ul {
     text-align: center;
 }
 
+.education-card + .education-card {
+    margin-top: 24px;
+}
+
 .education-card h3 {
     font-size: 1.2rem;
     font-weight: 700;
