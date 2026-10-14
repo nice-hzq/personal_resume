@@ -1,189 +1,98 @@
-# 个人求职简历网站
+# 何正卿
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-上线-blue)](https://nice-hzq.github.io/personal_resume/)
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+**2027 届校招全职** ｜ 控制理论与控制工程 · 硕士在读 ｜ 算法开发 / 模型部署方向
 
-一个**纯静态**的个人求职作品集网站，使用 HTML、CSS、JavaScript 构建，可直接通过 GitHub Pages 从 `/docs` 文件夹发布。
-
-> ⚡ 无需构建。无需 `npm install`。无需任何框架。直接打开 `docs/index.html` 即可运行。
+🌐 **在线简历网页**：<https://nice-hzq.github.io/personal_resume/>
+📄 **PDF 版**：[resume.pdf](docs/resume/resume.pdf)　·　📝 **Word 版**：[resume.docx](docs/resume/resume.docx)　·　📃 **Markdown 版**：[resume.md](docs/resume/resume.md)
 
 ---
 
-## 🚀 在线访问
+## 基本信息
 
-通过 GitHub Pages 发布后，访问地址为：
-
-```
-https://<你的用户名>.github.io/<仓库名>/
-```
-
----
-
-## 📁 项目目录结构
-
-```
-personal-job-website/
-├── README.md                          ← 本文件
-└── docs/                              ← 网站根目录（GitHub Pages 源文件夹）
-    ├── index.html                     ← 首页（包含所有模块）
-    ├── css/
-    │   └── style.css                  ← 全部样式
-    ├── js/
-    │   └── main.js                    ← 交互逻辑
-    ├── assets/
-    │   ├── avatar-placeholder.svg     ← 替换为你的头像（avatar.png/jpg）
-    │   └── project-placeholder.svg    ← 替换为项目截图
-    └── resume/
-        └── resume.pdf                 ← 替换为你的真实简历 PDF
-```
+| | | | |
+|---|---|---|---|
+| **姓名** | 何正卿 | **求职类型** | 2027 届校招全职 |
+| **邮箱** | anthony_hzq@163.com | **现所在地** | 郑州市新郑市 |
+| **学历状态** | 硕士在读，预计 2027 年 6 月毕业 | **已获学历** | 自动化 · 本科 |
+| **就读院校** | 中原工学院 | **硕士专业** | 控制理论与控制工程 |
+| **意向城市** | 北京、上海、深圳、广州 | **GitHub** | [nice-hzq](https://github.com/nice-hzq) |
 
 ---
 
-## 🔧 如何自定义修改
+## 教育背景
 
-### 1. 修改个人信息
+### 2024.07 – 2027.06（预计）｜中原工学院｜控制理论与控制工程｜硕士在读
 
-打开 **`docs/index.html`**，搜索以下占位内容并替换。关键修改位置：
+**主要课程：** 神经网络及其应用、矩阵论、随机过程、数值分析、Python 程序及其设计。
 
-| 修改内容 | 在 `index.html` 中的位置 |
-|---|---|
-| 姓名（中文 & English） | Hero 区域，`<h1 class="hero-name">` 和 `<h2 class="hero-name-en">` |
-| 求职职位 | `<p class="hero-title">` |
-| 个人简介 | `<p class="hero-bio">`、About 区域 |
-| 邮箱 | `href="mailto:anthony_hzq@163.com"` |
-| GitHub 地址 | `href="https://github.com/nice-hzq"` |
-| Google Scholar / ORCID | Hero 和 Contact 区域中的 `href="#"` |
-| 所在城市 | Contact 区域 |
+### 2019.07 – 2023.06｜中原工学院｜自动化｜本科
 
-### 2. 替换头像
-
-替换 **`docs/assets/avatar-placeholder.svg`** 文件：
-
-- 可使用 `.png`、`.jpg` 或 `.svg` 格式
-- 然后在 `index.html` 的 Hero 区域更新 `<img>` 标签或占位 div
-- 推荐尺寸：400×400px
-
-### 3. 替换简历 PDF
-
-将你的真实简历 PDF 替换 **`docs/resume/resume.pdf`** 即可。
-
-### 4. 添加或修改项目
-
-在 **`docs/index.html`** 中找到 **Projects** 区域（`<section id="projects">`）。
-每个项目是一个 `<div class="project-card">` 代码块——复制、粘贴、编辑即可。
-
-### 5. 添加或修改论文
-
-在 **`docs/index.html`** 中找到 **Publications** 区域（`<section id="publications">`）。
-每篇论文是一个 `<div class="pub-item">` 代码块。
-
-### 6. 修改样式
-
-所有样式在 **`docs/css/style.css`** 中。CSS 变量（颜色、阴影等）在文件顶部：
-
-```css
-:root {
-    --color-primary: #1a56db;   /* 主色 */
-    --color-accent: #06b6d4;    /* 强调色 */
-    --color-bg: #f8fafc;        /* 页面背景色 */
-    ...
-}
-```
-
-### 7. 修改交互行为
-
-所有 JavaScript 在 **`docs/js/main.js`** 中。
+**主要课程：** 电路原理、微机原理、C 语言、模拟电子电路、数字电子电路、单片机原理及应用、计算机控制系统、Python 程序及其设计。
 
 ---
 
-## 📤 如何在 GitHub Pages 上发布
+## 专业技能
 
-1. 将仓库推送到 GitHub：
-   ```bash
-   git init
-   git add .
-   git commit -m "初始化：个人求职简历网站"
-   git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-   git push -u origin main
-   ```
-
-2. 在 GitHub 上打开你的仓库 → 点击 **Settings**
-
-3. 左侧找到 **Pages**（在 "Code and automation" 分类下）
-
-4. 在 **Build and deployment** 中配置：
-   - **Source**：`Deploy from a branch`
-   - **Branch**：`main`
-   - **Folder**：`/docs`
-
-5. 点击 **Save**
-
-6. 等待 1–2 分钟，你的网站将发布在：
-   ```
-   https://<你的用户名>.github.io/<仓库名>/
-   https://nice-hzq.github.io/personal_resume/
-   ```
+- **算法与数据处理：** 使用 Python 进行数据处理、深度学习模型训练、性能评估和可视化；具有 IMU 多通道信号预处理、特征提取、步态事件检测及参数计算项目经验。
+- **Python 工程实践：** 具有训练脚本模块化重构、配置管理、日志记录、异常处理、测试和项目文档整理经验。
+- **数据库与服务化：** 具有 PostgreSQL 表结构设计、SQL 查询与统计、Python 数据写入，以及 FastAPI 接口和 Docker Compose 本地部署实践。
+- **应用开发：** 使用原生微信小程序框架和微信云开发实现页面、数据库集合、云函数、表单校验和数据展示。
+- **开发工具与语言：** 熟悉 Git 和 Office；英语 CET-4，可阅读英文技术文献，口语沟通尚不流利。
 
 ---
 
-## 💻 本地预览
+## 项目经历
 
-因为这是纯静态网站，不需要任何服务器：
+### 2025.07 – 2026.07｜翔宇医疗步态分析算法开发｜校企合作
 
-### 方式一：直接打开
-在文件管理器中双击 `docs/index.html` 即可。
+**项目角色：** 校方算法工程师，为企业提供步态分析算法支持。
 
-### 方式二：使用 VS Code Live Server
-1. 在 VS Code 中安装 **Live Server** 插件
-2. 右键 `docs/index.html` → **Open with Live Server**
+- 基于 IMU 加速度、角速度等多通道信号，完成预处理、特征提取、步态事件检测、支撑相/摆动相划分及步态参数计算。
+- 构建深度学习模型用于步态识别与异常步态分类，开展模型训练、性能评估和结果可视化，为可穿戴步态分析系统提供算法支持。
 
-### 方式三：使用 Python HTTP 服务
-```bash
-cd docs
-python -m http.server 8000
-# 然后在浏览器中打开 http://localhost:8000
-```
+### 2026.06 – 2026.07｜AI 工程化与模型部署能力提升项目｜学习实践
 
----
+- 将原有深度学习训练脚本模块化，整理配置管理、日志记录、异常处理、测试和 README 文档，支持实验复现与代码维护。
+- 使用 PostgreSQL 管理实验记录，设计 `datasets`、`models`、`experiment_runs`、`experiment_metrics` 等表，结构化存储模型参数、训练指标、日志及权重路径；通过 Python 自动写入实验结果，使用 SQL `JOIN` 和 `GROUP BY` 进行查询与统计。
+- 使用 FastAPI 封装训练与推理接口、连接数据库，通过 Docker Compose 启动 API 与数据库，搭建本地端到端实验环境。
 
-## ✨ 功能特性
+### 2026.03 – 2026.04｜康复训练记录微信小程序开发
 
-- ✅ 单页滚动设计，包含 12 个模块
-- ✅ 完全响应式（电脑、平板、手机）
-- ✅ 手机端汉堡菜单折叠导航
-- ✅ 导航平滑滚动
-- ✅ 返回顶部按钮
-- ✅ 一键复制邮箱
-- ✅ 滚动时导航栏增加阴影
-- ✅ 简洁专业的科技蓝主题
-- ✅ 求职导向的页面布局
-- ✅ 零依赖（图标使用 Font Awesome CDN，不影响基本显示）
-- ✅ 所有路径使用相对路径——适用于任意子目录部署
+- 基于原生微信小程序框架和微信云开发，实现首页概览、训练记录、历史查询、趋势分析、训练计划及个人中心模块；支持记录训练项目、状态、时长、疼痛评分、疲劳程度和备注。
+- 设计 `users`、`records` 数据集合，配置云开发环境并部署登录、记录增删改查和统计分析云函数；整理页面结构、组件复用、表单校验及数据展示流程。
 
 ---
 
-## 🎨 配色方案
+## 工作经历
 
-| 用途 | 颜色值 |
-|---|---|
-| 主色 | `#1a56db`（深蓝） |
-| 强调色 | `#06b6d4`（青色） |
-| 背景色 | `#f8fafc`（浅灰白） |
-| 卡片 | `#ffffff`（白色） |
-| 正文 | `#334155`（深灰） |
-| 标题 | `#0f172a`（近黑色） |
+### 2023.06 – 2023.12｜广东名门锁业有限公司｜车间管理
+
+- 负责车间产品制造管理，参与生产进度跟踪、现场协调和质量问题处理。
+- 参与流水线作业、工序衔接及产品工艺过程优化，推进现场管理规范化。
 
 ---
 
-## 📄 许可证
+## 论文成果
 
-MIT — 欢迎自由使用和修改，用于你自己的作品集网站。
+- **第二作者：** *Wearable Sensor-Based Knee Joint Angle Estimation: Modalities, Modeling, and Applications*. IEEE Journal of Biomedical and Health Informatics。
+- **第三作者：** *A Wearable Electronic Smart Knee Brace With Flexible Strain Sensors for Accurate Knee Joint Angle Estimation*. IEEE Transactions on Industrial Electronics。
 
 ---
 
-## 🙋‍♂️ 联系方式
+## 竞赛与奖励
 
-- **姓名**：何正卿（Zhengqing He）
-- **邮箱**：anthony_hzq@163.com
-- **GitHub**：[github.com/nice-hzq](https://github.com/nice-hzq)
-- **所在地**：Zhengzhou, China
+- 2026 研究生电赛国家三等奖
+- 河南省数智中原一等奖
+- 2025 研究生电赛省三等奖
+- 2026 年国家奖学金
+- 2025 研究生学业奖学金省二等奖
+
+---
+
+## 个人总结
+
+研究生阶段围绕可穿戴传感器与步态分析开展科研和校企合作，结合 Python 工程化与康复小程序实践，积累了从信号处理、模型训练评估到本地服务与应用开发的经验。希望在智能可穿戴、康复工程及算法与应用系统结合方向继续发展。
+
+---
+
+<sub>本仓库同时托管上面的在线简历网页（纯静态 HTML/CSS/JS，部署于 GitHub Pages）。网站的修改与发布说明见 [DEPLOY.md](DEPLOY.md)。</sub>
