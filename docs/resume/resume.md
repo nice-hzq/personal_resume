@@ -48,13 +48,6 @@
 - 基于原生微信小程序框架和微信云开发，实现首页概览、训练记录、历史查询、趋势分析、训练计划及个人中心模块；支持记录训练项目、状态、时长、疼痛评分、疲劳程度和备注。
 - 设计 `users`、`records` 数据集合，配置云开发环境并部署登录、记录增删改查和统计分析云函数；整理页面结构、组件复用、表单校验及数据展示流程。
 
-## 工作经历
-
-### 2023.06-2023.12｜广东名门锁业有限公司｜车间管理
-
-- 负责车间产品制造管理，参与生产进度跟踪、现场协调和质量问题处理。
-- 参与流水线作业、工序衔接及产品工艺过程优化，推进现场管理规范化。
-
 ## 论文成果
 
 - **第二作者：** *Wearable Sensor-Based Knee Joint Angle Estimation: Modalities, Modeling, and Applications*. IEEE Journal of Biomedical and Health Informatics。
