@@ -1,4 +1,4 @@
-# 个人求职简历网站 — 胡瑞祥 / Ruixiang Hu
+# 个人求职简历网站
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-上线-blue)](https://yourname.github.io/personal-job-website/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
@@ -183,7 +183,7 @@ MIT — 欢迎自由使用和修改，用于你自己的作品集网站。
 
 ## 🙋‍♂️ 联系方式
 
-- **姓名**：胡瑞祥 / Ruixiang Hu
+- **姓名**：
 - **邮箱**：your_email@example.com（请替换为你的真实邮箱）
 - **GitHub**：[github.com/yourname](https://github.com/yourname)（请替换为你的真实账号）
 - **所在地**：Zhengzhou, China
