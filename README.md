@@ -1,6 +1,6 @@
 # 个人求职简历网站
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-上线-blue)](https://yourname.github.io/personal-job-website/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-上线-blue)](https://nice-hzq.github.io/personal_resume/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 一个**纯静态**的个人求职作品集网站，使用 HTML、CSS、JavaScript 构建，可直接通过 GitHub Pages 从 `/docs` 文件夹发布。
@@ -50,8 +50,8 @@ personal-job-website/
 | 姓名（中文 & English） | Hero 区域，`<h1 class="hero-name">` 和 `<h2 class="hero-name-en">` |
 | 求职职位 | `<p class="hero-title">` |
 | 个人简介 | `<p class="hero-bio">`、About 区域 |
-| 邮箱 | `href="mailto:your_email@example.com"` |
-| GitHub 地址 | `href="https://github.com/yourname"` |
+| 邮箱 | `href="mailto:anthony_hzq@163.com"` |
+| GitHub 地址 | `href="https://github.com/nice-hzq"` |
 | Google Scholar / ORCID | Hero 和 Contact 区域中的 `href="#"` |
 | 所在城市 | Contact 区域 |
 
@@ -183,7 +183,7 @@ MIT — 欢迎自由使用和修改，用于你自己的作品集网站。
 
 ## 🙋‍♂️ 联系方式
 
-- **姓名**：
-- **邮箱**：your_email@example.com（请替换为你的真实邮箱）
-- **GitHub**：[github.com/yourname](https://github.com/yourname)（请替换为你的真实账号）
+- **姓名**：何正卿（Zhengqing He）
+- **邮箱**：anthony_hzq@163.com
+- **GitHub**：[github.com/nice-hzq](https://github.com/nice-hzq)
 - **所在地**：Zhengzhou, China
