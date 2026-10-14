@@ -121,6 +121,7 @@ personal-job-website/
 6. 等待 1–2 分钟，你的网站将发布在：
    ```
    https://<你的用户名>.github.io/<仓库名>/
+   https://nice-hzq.github.io/personal_resume/
    ```
 
 ---
